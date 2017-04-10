@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import { inviteReducer } from './reducer_invite';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  invite : inviteReducer
 });
 
 export default rootReducer;
